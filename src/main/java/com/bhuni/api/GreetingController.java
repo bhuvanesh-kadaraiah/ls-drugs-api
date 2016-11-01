@@ -38,6 +38,7 @@ public class GreetingController {
 			produces=MediaType.APPLICATION_JSON_VALUE)
 	
 	public ResponseEntity<Collection<Greeting>> getGreetings(){
+		System.out.println("Cool");
 		System.out.println("Inside getGreetings###############");
 		Collection<Greeting> greetings = greetingService.findAllGreetings();
 		return new ResponseEntity<Collection<Greeting>>(greetings,HttpStatus.OK);

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: springBoot2
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: Lenovo
+Implementation-Vendor-Id: com.bhuni.spring.boot.1
+Build-Jdk: 1.8.0_101
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
